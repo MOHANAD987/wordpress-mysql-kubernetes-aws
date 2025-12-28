@@ -3,10 +3,9 @@
 wordpress-mysql-kubernetes-aws/
 ├── README.md
 ├── architecture/
-│   └── architecture.png
-├── aws/
-│   ├── iam-efs-policy.json
-│   └── iam-setup.md
+│   └── Project Reference Architecture.png
+├── screenshots/
+│   
 ├── mysql/
 │   ├── secret.yaml
 │   ├── mysql-sc.yaml
@@ -44,7 +43,7 @@ The project focuses on **real-world storage integration**, **AWS IAM**, and **Ku
 * AWS CSI Drivers (EBS & EFS)
 
 📷 *Architecture Diagram*
-*Add diagram under `/architecture/architecture.png`*
+*`Architecture/Project Reference Architecture.png`*
 
 ---
 
@@ -122,7 +121,7 @@ kubectl apply -f wordpress/wordpress-svc.yaml
 
 ## 📈 High Availability & Scalability
 
-* if you woant WordPress deployed with multiple replicas
+* WordPress deployed with multiple replicas(Optional)
 
 ```bash
 kubectl scale deploy wordpress --replicas=2
