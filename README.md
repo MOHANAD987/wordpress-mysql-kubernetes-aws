@@ -46,6 +46,31 @@ The project focuses on **real-world storage integration**, **AWS IAM**, and **Ku
 *`Architecture/Project Reference Architecture.png`*
 
 ---
+:
+
+📸 Deployment Screenshots
+
+This project includes a dedicated screenshots/ directory that documents the entire deployment process step by step, providing clear visual evidence of the real implementation.
+
+The screenshots cover the following stages:
+
+* Kubernetes cluster setup using kubeadm
+* Installation and verification of AWS EBS & EFS CSI Drivers
+* MySQL deployment with persistent storage on Amazon EBS
+* WordPress deployment with shared storage on Amazon EFS
+* PersistentVolume (PV) and PersistentVolumeClaim (PVC) binding states
+* Creation of LoadBalancer service and external access
+*Final verification of the WordPress application running successfully
+
+📂 All screenshots can be found in the following directory:
+
+screenshots/
+
+
+✔ This section enhances project credibility
+✔ Demonstrates hands-on Kubernetes & AWS experience
+✔ Makes the repository more professional and interview-ready
+---
 
 ## 🔐 AWS IAM & Security Design
 
